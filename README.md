@@ -33,3 +33,47 @@ Wireframes consist of several core elements that help define the structure and f
 - **Definition:** Interactive elements that demonstrate what actions users can take.  
 - **Contribution:** Shows how the system behaves and what features are available.  
 - **Example:** Including “Add to Cart” or “Confirm Booking” buttons in the wireframe indicates the user can perform actions directly on that page.
+
+## Types of Wireframes
+Wireframes are essential tools in the design process, serving as blueprints for digital interfaces. They vary in detail and fidelity, each serving distinct purposes at different stages of development.
+
+### 1. Low-Fidelity Wireframes
+**Definition:**
+Low-fidelity wireframes are basic, simplified representations of a user interface. They focus on structure and functionality rather than design details.
+**Characteristics:**
+- Use basic shapes, placeholders, and minimal text.
+- Quick to create and easy to modify.
+- Emphasize layout, navigation, and user flow.
+
+**When to Use:**
+- Early design stages for brainstorming and conceptualization.
+- Gathering initial user feedback without distractions.
+- Aligning stakeholders on basic structure and functionality.
+
+**Example:**
+Hand-drawn sketches showing button placement, menus, and content areas without styling.
+
+### 2. High-Fidelity Wireframes
+**Definition:**
+High-fidelity wireframes are detailed, polished representations of a user interface. They closely resemble the final product in design and functionality.
+**Characteristics:**
+- Include colors, typography, images, and branding elements.
+- May feature clickable elements to simulate user interactions.
+- Provide a precise vision of the final product's look and feel.
+
+**When to Use:**
+- Final design stages after confirming basic structure and functionality.
+- Stakeholder approval and user testing of near-final design.
+- Developer handoff to guide accurate implementation.
+
+**Example:**
+A digital mockup in Figma showing all visual elements, layout, and interactions.
+
+###Wireframe Type in the Figma File
+The wireframe in the provided Figma file is **high-fidelity**, because:
+- It shows a detailed layout with clearly defined UI elements.
+- It includes branding, spacing, and visual hierarchy.
+- Interactive components can be prototyped for testing.
+
+**Purpose:**
+This high-fidelity wireframe serves as a near-final visual blueprint for the booking management system, helping stakeholders review the design and guiding developers during implementation.
