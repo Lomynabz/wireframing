@@ -69,7 +69,7 @@ High-fidelity wireframes are detailed, polished representations of a user interf
 **Example:**
 A digital mockup in Figma showing all visual elements, layout, and interactions.
 
-###Wireframe Type in the Figma File
+### Wireframe Type in the Figma File
 The wireframe in the provided Figma file is **high-fidelity**, because:
 - It shows a detailed layout with clearly defined UI elements.
 - It includes branding, spacing, and visual hierarchy.
