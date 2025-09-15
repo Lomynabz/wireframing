@@ -149,3 +149,30 @@ One of the standout benefits is enhanced collaboration, turning abstract discuss
 
 By using examples from these tools, wireframing breaks down silos—designers communicate intent visually, developers clarify technical feasibility, and PMs validate business goals—ultimately leading to higher-quality software delivered faster and with fewer bugs. In team environments, this can improve project velocity by up to 40%, as evidenced in collaborative workflows.
 
+### Real-World Scenario: Wireframing for the AI Report Generation Tool at Klinik Pintar
+In a practical example from the healthcare tech sector, a design team at Klinik Pintar—a digital health platform—undertook the development of an AI-powered report generation tool to streamline administrative tasks for business analysts and admins. The project aimed to create an intuitive interface for generating customized reports from various databases (e.g., MySQL, MongoDB), but early wireframing in Figma revealed critical usability hurdles before any coding began. This scenario highlights how wireframing acts as an early diagnostic tool in software development, particularly for data-heavy applications where user error could lead to inaccurate reports or workflow bottlenecks.
+
+#### Identified Usability Issues
+During initial wireframing sessions and stakeholder usability testing, several issues surfaced that could have derailed the user experience:
+- **Lack of Visual Distinction in Data Schemas:** The schema table displayed database options without unique icons or colors, making it hard for users to quickly differentiate between platforms like MySQL and MongoDB, potentially causing selection errors in high-pressure clinical environments.
+- **Overwhelming Visual Design in Service Columns:** High-contrast colors in the service listing created a cluttered, fatiguing interface, with users reporting it as "visually overwhelming" and distracting from key tasks.
+Static Input Limitations: The "Select Service" dropdown was rigid, offering only predefined options without editability, leading to frustration for admins who needed to add custom services on the fly—highlighting scalability gaps for evolving healthcare needs.
+- **Unclear Contextual Guidance:** Users couldn't easily link selected services back to their associated databases, and help modals lacked clear tips on category selection, increasing cognitive load during onboarding.
+
+These issues were uncovered through low-fidelity wireframes shared in real-time Figma sessions, where stakeholders simulated tasks and provided immediate feedback, avoiding the pitfalls of assuming user familiarity with the interface.
+
+#### Resolution of the Issues
+The team applied Jakob Nielsen's 10 Usability Heuristics as a framework to iterate on the wireframes, conducting two rounds of refinements based on testing insights:
+
+- For visual distinction, they introduced color-coded icons (e.g., blue for relational databases like MySQL, green for NoSQL like MongoDB), aligning with the "Recognition Rather Than Recall" heuristic to reduce mental effort.
+- The service column was redesigned with a minimalist, neutral palette and better white space, adhering to "Aesthetic and Minimalist Design" to eliminate clutter while maintaining accessibility.
+- To address static inputs, dynamic CRUD (Create, Read, Update, Delete) functionality was prototyped into the dropdown, allowing free-text additions with autocomplete—fulfilling "Flexibility and Efficiency of Use" by supporting power users without complicating the base flow.
+- Contextual links and enhanced help modals with step-by-step visuals were added, drawing on "Help and Documentation" and "Visibility of System Status" to provide real-time cues, such as tooltips showing database associations on hover.
+
+These changes were benchmarked against industry standards, like the quick navigation in the existing Klinik Pintar website and Gemini AI's intuitive dropdowns, ensuring the updates felt familiar yet innovative. The iterative process, leveraging Figma's version history, allowed the team to revert and test variations swiftly.
+
+#### Impact on the Final Product
+By resolving these issues pre-development, the project avoided costly downstream fixes, resulting in a more scalable and user-centric tool. The final product featured an interface that cut task completion time by an estimated 20-30% during user acceptance testing (UAT), based on faster service selections and fewer errors. Post-launch, stakeholder feedback indicated higher adoption rates among admins, with reduced support tickets related to navigation—directly tying back to the wireframe iterations. Overall, this front-loaded effort saved approximately 40% in rework time compared to similar past projects without early prototyping, fostering a smoother handoff to developers and a product that better aligned with real-world healthcare workflows.
+### Summary: The Role of Wireframing in Ensuring User-Friendly Design
+Wireframing plays a pivotal role in user-friendly design by serving as a low-cost, collaborative checkpoint that uncovers hidden usability flaws early, much like a blueprint reveals structural weaknesses before construction. It democratizes feedback, aligns cross-functional teams on user needs, and minimizes risks in agile environments, ultimately delivering intuitive products that enhance satisfaction, efficiency, and ROI—proving indispensable for bridging creative vision with practical execution.
+
